@@ -12,6 +12,14 @@ h1, h2 {
   color: #163172;
 }
 
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
 .front-page {
   text-align: center;
   padding: 30px;
@@ -104,5 +112,13 @@ input {
   .score {
     display: flex;
     justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 }
