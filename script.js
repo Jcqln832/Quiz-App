@@ -179,7 +179,7 @@ function renderQuestion() {
     return `<p><b>That's right!</b> ${item.q} <br><br>
     <em>${item.correct()}</em></p> <br>
     <button class="js-next btn-next" type="button">Next</button>
-    <img class="puppy-feedback" src="puppy-smart-600.jpg" alt="puppy wearing graduation cap"/>`
+    <img class="puppy-feedback" src="img/puppy-smart-600.jpg" alt="puppy wearing graduation cap"/>`
   }
 // this function handles what get displayed on screen when the user chooses the wrong answer
   function generateIncorrectFeedback(item){
@@ -187,7 +187,7 @@ function renderQuestion() {
     return `<p><b>Not quite!</b> ${item.q} <br><br>
     <em>${item.correct()}</em></p> <br>
     <button class="js-next btn-next" type="button">Next</button>
-    <img class="puppy-feedback" src="puppy-concerned-600.jpg" alt="puppy with concerned look"/>`
+    <img class="puppy-feedback" src="img/puppy-concerned-600.jpg" alt="puppy with concerned look"/>`
   }
 
 // show quiz completed screen 
